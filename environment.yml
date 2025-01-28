@@ -1,0 +1,12 @@
+name: neuron
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9
+  - numpy
+  - ipykernel
+  - matplotlib
+  - pip
+  - pip:
+    - neuron>=8.2.0
