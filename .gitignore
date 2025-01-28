@@ -1,3 +1,10 @@
+# Other things
+_historical/
+
+# Saved data
+*.pkl
+*.mat
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
