@@ -1,0 +1,316 @@
+
+create soma
+soma {
+  pt3dclear()
+  pt3dadd(118.2,-175.1,0,12)
+  pt3dadd(118.2,-163.1,0,12)
+}
+
+create D1
+D1 {
+  pt3dclear()
+  pt3dadd(118.2,-163.1,0,1)
+  pt3dadd(119.9,-154.7,0,1)
+}
+soma connect D1(0),1
+
+create D11
+D11 {
+  pt3dclear()
+  pt3dadd(119.9,-154.7,0,1)
+  pt3dadd(123.6,-149.6,0,1)
+  pt3dadd(131.0,-135.4,0,1)
+  pt3dadd(134.9,-130.8,0,1)
+}
+D1 connect D11(0),1
+
+create D111
+D111 {
+  pt3dclear()
+  pt3dadd(134.9,-130.8,0,1)
+  pt3dadd(138.0,-124.7,0,1)
+  pt3dadd(139.0,-119.9,0,1)
+  pt3dadd(139.9,-117.3,0,1)
+  pt3dadd(144.2,-112.6,0,1)
+  pt3dadd(149.0,-103.2,0,1)
+}
+D11 connect D111(0),1
+
+create D1111
+D1111 {
+  pt3dclear()
+  pt3dadd(149.0,-103.2,0,1)
+  pt3dadd(157.9,-89.4,0,1)
+}
+D111 connect D1111(0),1
+
+create D11111
+D11111 {
+  pt3dclear()
+  pt3dadd(157.9,-89.4,0,1)
+  pt3dadd(163.1,-86.3,0,1)
+  pt3dadd(171.3,-80.3,0,1)
+}
+D1111 connect D11111(0),1
+
+//create D111111
+//D111111 {
+//  pt3dclear()
+//  pt3dadd(171.3,-80.3,0,1)
+//  pt3dadd(177.8,-68.1,0,1)
+//  pt3dadd(179.8,-66.6,0,1)
+//  pt3dadd(184.2,-60.3,0,1)
+//  pt3dadd(185.2,-56.6,0,1)
+//  pt3dadd(188.7,-52.5,0,1)
+//  pt3dadd(195.9,-48.4,0,1)
+//  pt3dadd(202.8,-41.2,0,1)
+//  pt3dadd(208.6,-32.7,0,1)
+//}
+//D11111 connect D111111(0),1
+
+//create D1111111
+//D1111111 {
+//  pt3dclear()
+//  pt3dadd(208.6,-32.7,0,1)
+//  pt3dadd(212.6,-24.7,0,1)
+//  pt3dadd(218.8,-13.9,0,1)
+//  pt3dadd(222.5,-11.5,0,1)
+//  pt3dadd(224.7,-7.2,0,1)
+//  pt3dadd(224.7,-4.8,0,1)
+//  pt3dadd(226.6,-3.2,0,1)
+//  pt3dadd(228.6,-2.4,0,1)
+//  pt3dadd(230.3,-0.9,0,1)
+//}
+//D111111 connect D1111111(0),1
+
+//create D1111112
+//D1111112 {
+//  pt3dclear()
+//  pt3dadd(208.6,-32.7,0,1)
+//  pt3dadd(215.8,-28.8,0,1)
+//  pt3dadd(227.3,-27.5,0,1)
+//  pt3dadd(238.4,-30.6,0,1)
+//}
+//D111111 connect D1111112(0),1
+
+create D111112
+D111112 {
+  pt3dclear()
+  pt3dadd(171.3,-80.3,0,1)
+  pt3dadd(178.1,-80.2,0,1)
+  pt3dadd(184.4,-78.5,0,1)
+}
+D11111 connect D111112(0),1
+
+//create D1111121
+//D1111121 {
+//  pt3dclear()
+//  pt3dadd(184.4,-78.5,0,1)
+//  pt3dadd(188.5,-78.3,0,1)
+//  pt3dadd(199.5,-74.2,0,1)
+//  pt3dadd(206.0,-70.9,0,1)
+//  pt3dadd(218.8,-65.3,0,1)
+//}
+//D111112 connect D1111121(0),1
+//
+//create D1111122
+//D1111122 {
+//  pt3dclear()
+//  pt3dadd(184.4,-78.5,0,1)
+//  pt3dadd(187.0,-75.5,0,1)
+//}
+//D111112 connect D1111122(0),1
+
+create D1112
+D1112 {
+  pt3dclear()
+  pt3dadd(149.0,-103.2,0,1)
+  pt3dadd(129.1,-91.1,0,1)
+}
+D111 connect D1112(0),1
+
+create D112
+D112 {
+  pt3dclear()
+  pt3dadd(134.9,-130.8,0,1)
+  pt3dadd(140.6,-130.1,0,1)
+  pt3dadd(143.2,-125.6,0,1)
+  pt3dadd(143.1,-123.0,0,1)
+  pt3dadd(145.7,-120.0,0,1)
+}
+D11 connect D112(0),1
+
+create D12
+D12 {
+  pt3dclear()
+  pt3dadd(119.9,-154.7,0,1)
+  pt3dadd(112.4,-149.7,0,1)
+  pt3dadd(100.8,-131.9,0,1)
+}
+D1 connect D12(0),1
+
+create D121
+D121 {
+  pt3dclear()
+  pt3dadd(100.8,-131.9,0,1)
+  pt3dadd(85.5,-105.4,0,1)
+  pt3dadd(81.1,-103.2,0,1)
+  pt3dadd(77.9,-99.8,0,1)
+  pt3dadd(74.6,-97.6,0,1)
+  pt3dadd(68.8,-96.3,0,1)
+  pt3dadd(65.7,-93.0,0,1)
+  pt3dadd(61.2,-84.4,0,1)
+  pt3dadd(56.6,-83.9,0,1)
+  pt3dadd(53.1,-81.5,0,1)
+  pt3dadd(45.5,-77.6,0,1)
+  pt3dadd(41.6,-76.4,0,1)
+  pt3dadd(38.0,-73.5,0,1)
+  pt3dadd(34.9,-71.8,0,1)
+  pt3dadd(31.4,-72.2,0,1)
+}
+D12 connect D121(0),1
+
+create D122
+D122 {
+  pt3dclear()
+  pt3dadd(100.8,-131.9,0,1)
+  pt3dadd(77.9,-131.9,0,1)
+  pt3dadd(63.6,-130.3,0,1)
+  pt3dadd(52.9,-133.4,0,1)
+  pt3dadd(47.1,-133.0,0,1)
+}
+D12 connect D122(0),1
+
+create D2
+D2 {
+  pt3dclear()
+  pt3dadd(114.1,-164.8,0,1)
+  pt3dadd(109.7,-161.1,0,1)
+}
+soma connect D2(0),1
+
+create D21
+D21 {
+  pt3dclear()
+  pt3dadd(109.7,-161.1,0,1)
+  pt3dadd(110.4,-149.9,0,1)
+}
+D2 connect D21(0),1
+
+create D211
+D211 {
+  pt3dclear()
+  pt3dadd(110.4,-149.9,0,1)
+  pt3dadd(110.2,-143.1,0,1)
+}
+D21 connect D211(0),1
+
+create D2111
+D2111 {
+  pt3dclear()
+  pt3dadd(110.2,-143.1,0,1)
+  pt3dadd(103.7,-136.4,0,1)
+  pt3dadd(97.8,-127.8,0,1)
+  pt3dadd(94.4,-118.8,0,1)
+  pt3dadd(89.1,-111.3,0,1)
+  pt3dadd(79.8,-104.5,0,1)
+  pt3dadd(74.0,-99.1,0,1)
+  pt3dadd(62.5,-83.1,0,1)
+  pt3dadd(61.4,-72.7,0,1)
+  pt3dadd(58.8,-64.6,0,1)
+  pt3dadd(59.6,-61.8,0,1)
+  pt3dadd(57.7,-57.7,0,1)
+}
+D211 connect D2111(0),1
+
+create D2112
+D2112 {
+  pt3dclear()
+  pt3dadd(110.2,-143.1,0,1)
+  pt3dadd(111.9,-139.3,0,1)
+  pt3dadd(111.7,-135.4,0,1)
+}
+D211 connect D2112(0),1
+
+create D21121
+D21121 {
+  pt3dclear()
+  pt3dadd(111.7,-135.4,0,1)
+  pt3dadd(118.0,-130.8,0,1)
+  pt3dadd(118.4,-128.8,0,1)
+  pt3dadd(122.1,-125.6,0,1)
+  pt3dadd(124.7,-120.2,0,1)
+  pt3dadd(129.1,-112.8,0,1)
+  pt3dadd(133.6,-106.9,0,1)
+  pt3dadd(137.3,-103.5,0,1)
+}
+D2112 connect D21121(0),1
+
+create D21122
+D21122 {
+  pt3dclear()
+  pt3dadd(111.7,-135.4,0,1)
+  pt3dadd(111.5,-126.4,0,1)
+  pt3dadd(108.7,-115.2,0,1)
+}
+D2112 connect D21122(0),1
+
+create D212
+D212 {
+  pt3dclear()
+  pt3dadd(110.4,-149.9,0,1)
+  pt3dadd(106.3,-143.6,0,1)
+}
+D21 connect D212(0),1
+
+create D22
+D22 {
+  pt3dclear()
+  pt3dadd(109.7,-161.1,0,1)
+  pt3dadd(102.6,-161.4,0,1)
+}
+D2 connect D22(0),1
+
+create D221
+D221 {
+  pt3dclear()
+  pt3dadd(102.6,-161.4,0,1)
+  pt3dadd(96.3,-160.9,0,1)
+  pt3dadd(90.0,-159.4,0,1)
+}
+D22 connect D221(0),1
+
+create D2211
+D2211 {
+  pt3dclear()
+  pt3dadd(90.0,-159.4,0,1)
+  pt3dadd(88.9,-156.6,0,1)
+  pt3dadd(86.8,-153.4,0,1)
+  pt3dadd(72.4,-139.9,0,1)
+  pt3dadd(57.7,-129.3,0,1)
+  pt3dadd(56.8,-124.7,0,1)
+  pt3dadd(58.4,-117.8,0,1)
+  pt3dadd(54.9,-113.9,0,1)
+  pt3dadd(54.9,-110.2,0,1)
+}
+D221 connect D2211(0),1
+
+create D2212
+D2212 {
+  pt3dclear()
+  pt3dadd(90.0,-159.4,0,1)
+  pt3dadd(88.5,-159.8,0,1)
+  pt3dadd(81.1,-155.1,0,1)
+  pt3dadd(69.2,-154.9,0,1)
+  pt3dadd(54.4,-157.3,0,1)
+}
+D221 connect D2212(0),1
+
+create D222
+D222 {
+  pt3dclear()
+  pt3dadd(102.6,-161.4,0,1)
+  pt3dadd(86.1,-178.1,0,1)
+}
+D22 connect D222(0),1
+
