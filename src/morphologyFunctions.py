@@ -276,13 +276,13 @@ def measureDiscountedMorphRatio(section,lengthConstant,method='exponential'):
                 multFactor = 1/(idx2-idx1)*1/(2*lengthConstant) * (idx2**2 - idx1**2)
             elif method=='sigmoid':
                 if len(lengthConstant)!=3: 
-                    display('For sigmoid, must provide 3 terms, exiting now.')
+                    print('For sigmoid, must provide 3 terms, exiting now.')
                     return
                 mainTerm = lambda x: lengthConstant[0] / (lengthConstant[0] + np.exp(-lengthConstant[1]*x - lengthConstant[2]))
                 multFactor = 1/(idx2-idx1) * (1/lengthConstant[1]) * (np.log(mainTerm(idx2)) - np.log(mainTerm(idx1)))
             elif method=='order':
                 if len(lengthConstant)!=3: 
-                    display('For order, must provide 3 terms, exiting now.')
+                    print('For order, must provide 3 terms, exiting now.')
                     return
                 order = 0
                 currSec = tt
@@ -302,13 +302,13 @@ def measureDiscountedMorphRatio(section,lengthConstant,method='exponential'):
                 multFactor = 1/(idx2-idx1)*1/(2*lengthConstant) * (idx2**2 - idx1**2)
             elif method=='sigmoid':
                 if len(lengthConstant)!=3: 
-                    display('For sigmoid, must provide 3 terms, exiting now.')
+                    print('For sigmoid, must provide 3 terms, exiting now.')
                     return
                 mainTerm = lambda x: lengthConstant[0] / (lengthConstant[0] + np.exp(-lengthConstant[1]*x - lengthConstant[2]))
                 multFactor = 1/(idx2-idx1) * (1/lengthConstant[1]) * (np.log(mainTerm(idx2)) - np.log(mainTerm(idx1)))
             elif method=='order':
                 if len(lengthConstant)!=3: 
-                    display('For order, must provide 3 terms, exiting now.')
+                    print('For order, must provide 3 terms, exiting now.')
                     return
                 order = 0
                 currSec = st

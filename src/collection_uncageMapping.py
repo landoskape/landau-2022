@@ -31,7 +31,7 @@ class L23(object):
         if cutExperiment!=0:
             cutName = f"_dcut{cutExperiment}"
         #print('Creating cell : {fName}{cName}'.format(fName=hocFileName[cellID],cName=cutName))
-        file_name = f"{get_src_dir()}/silentDendrite_uncageMappingMorphologies/{hocFileName[cellID]}{cutName}.hoc"    
+        file_name = f"{get_src_dir()}/morphologies_from_paper/{hocFileName[cellID]}{cutName}.hoc"    
         h(f'xopen("{file_name}")');
         
     def props(self,dendNa,dendK):

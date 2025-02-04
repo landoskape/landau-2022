@@ -27,7 +27,7 @@ class L23(object):
     def loadHoc(self,cellID):
         hocFileName = {0:'L23',1:'29_CDK170205_registered_D2',2:'layer23_1_ATL',3:'layer23_2_ATL',4:'layer23_3_ATL',5:'layer23_4_ATL'}
         print('Creating cell : {fName}'.format(fName=hocFileName[cellID]))
-        file_name = f"{get_src_dir()}/KeyNeuronMorphologies/{hocFileName[cellID]}.hoc"
+        file_name = f"{get_src_dir()}/morphologies_from_literature/{hocFileName[cellID]}.hoc"
         h(f'xopen("{file_name}")');
         
     def props(self,dendNa,dendK):
