@@ -2,7 +2,7 @@
 Code accompanying our manuscript published in eLife 2022.
 
 ## Overview
-This repository contains code for running neuron simulations and generating figures as presented in our eLife 2022 paper. The codebase provides tools for neural simulation and analysis, with a focus on [brief description of main research focus].
+This repository contains code for running neuron simulations and generating figures as presented in our eLife 2022 paper. The codebase provides tools for neural simulation and analysis, with a focus on studying how the dendritic morphology affects action potential backpropagation and resulting calcium influx.
 
 ## Installation
 To get started with this codebase:
